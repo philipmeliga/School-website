@@ -1,0 +1,20 @@
+ul li a{
+   text-decoration:none; 
+    list-style:none;  
+    font-size:20px; 
+    line-height:1.5;
+    position:absolute;
+    margin-left:40px;
+    left:5px;
+    color:green;
+    gap:10px;
+}
+.tutorial{
+    height: 500px;
+}
+h1{
+    text-align:center;
+}
+a{
+    
+}

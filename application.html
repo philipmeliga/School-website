@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+     <meta name="theme-color" content="#1bb566">
+    <meta charset="UTF-8">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="/School-website/application.css">
+</head>
+<body>
+    
+<!-- Application Form -->
+<form id="application-form">
+  <h2>Application Form</h2>
+  <label for="name">Full Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="phone">Phone:</label>
+  <input type="tel" id="phone" name="phone"><br><br>
+  <label for="address">Address:</label>
+  <input type="text" id="address" name="address"><br><br>
+  <label for="city">City:</label>
+  <input type="text" id="city" name="city"><br><br>
+  <label for="state">State:</label>
+  <input type="text" id="state" name="state"><br><br>
+  <label for="zip">Zip:</label>
+  <input type="text" id="zip" name="zip"><br><br>
+  <label for="program">Class Interested:</label>
+  <select id="program" name="program">
+    <option value="">Select a class</option>
+    <option value="JSSI">JSS I</option>
+    <option value="JSSII">JSS II</option>
+    <option value="JSSIII">JSSIII</option>
+    <option value="SSSI">SSSI</option> 
+    <option value="SSSII">SSSII</option>
+    <option value="SSSIII">SSSIII</option>
+  </select><br><br>
+ 
+
+  <label for="extracurriculars">Extracurricular Activities:</label>
+  <textarea id="extracurriculars" name="extracurriculars"></textarea><br><br>
+  <label for="essay">Essay (optional):</label>
+  <textarea id="essay" name="essay"></textarea><br><br>
+  <button id="submit-btn">Submit Application</button>
+</form>
+
+<!-- Confirmation Message -->
+<div id="confirmation-msg" style="display: none;">
+  <p>Thank you for applying! We'll review your application soon.</p>
+</div>
+
+<script src="/School-website/application.js"></script>
+</body>
+</html>

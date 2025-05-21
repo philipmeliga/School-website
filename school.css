@@ -1,0 +1,231 @@
+.page{
+    width:100%;
+    height: 100%;
+}
+.page1{
+    width:10%;
+    height: 10%;
+    position:absolute;
+    left:10px;
+    top:60px;
+}
+html, body{
+    margin:0;
+    padding:0;
+}
+.nav1{
+    position:absolute;
+    background: #F0F8FF;
+    margin:0;
+    padding:0;
+    display:flex;
+    text-decoration:none;
+    list-style:none;
+    top:0;
+    gap:4px;
+    width: 100%;
+    font-size: 10px;
+    left:2px;
+    justify-content:flex-end;
+}
+nav li{
+    margin-left:15px;
+}
+.nav2{
+    position:absolute;
+    background: none;
+    margin-top:1px;
+    display:flex;
+    text-decoration:none;
+    list-style:none;
+    top:25px;
+    gap:2px;
+    width: 100%;
+    font-size: 10px;
+    text-align:left;
+    left:48px;
+}
+.nav1 a{
+    text-decoration:none;
+    color:black;
+    cursor:pointer;
+    width: 100%;
+    font-weight: bold;
+    
+} 
+.nav2 a{
+    text-decoration:none;
+    color:red;
+    cursor:pointer;
+    width: 100%;
+    font-size: 11px;
+    font-weight: bold;
+}
+#apply{
+    position:absolute;
+    font-size: 10px;
+    top:40px;
+    left:270px;
+    width: 80px;
+    height:20px;
+    border-radius: 3px;
+    background: #fff27f;
+    border:none;
+    
+}
+#login{
+    position:absolute;
+    top:40px;
+    left:180px;
+    width: 80px;
+    height:20px;
+    border-radius: 3px;
+    border-color: black;
+    background: none;
+    font-size: 10px;
+}
+.admission-container{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:300px;
+    width: 60px;
+    height: 60px;
+    background: lightblue;
+    justify-content:center;
+    align-items:center;
+}
+.adm{
+    font-size:8px;
+    color:black;
+}
+.icon{
+    font-size:20px;
+    color:white;
+}
+.academic-container{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:300px;
+    width: 60px;
+    height: 60px;
+    background: lightgreen;
+    justify-content:center;
+    align-items:center;
+    left:60px;
+}
+.adm{
+    font-size:8px;
+    color:black;
+}
+.icon{
+    font-size:20px;
+    color:white;
+}
+.tutorial-container{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:300px;
+    width: 60px;
+    height: 60px;
+    background: lightyellow;
+    justify-content:center;
+    align-items:center;
+    left:120px;
+}
+.adm{
+    font-size:8px;
+    color:black;
+}
+.iconn{
+    font-size:20px;
+    color:lightblur;
+}
+.calendar-container{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:300px;
+    width: 60px;
+    height: 60px;
+    background: lightgreen;
+    justify-content:center;
+    align-items:center;
+    left:180px;
+}
+.adm{
+    font-size:8px;
+    color:black;
+}
+.icon{
+    font-size:20px;
+    color:white;
+}
+.gallery-container{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:300px;
+    width: 60px;
+    height: 60px;
+    background: lightpink;
+    justify-content:center;
+    align-items:center;
+    left:239px;
+}
+.adm{
+    font-size:8px;
+    color:black;
+}
+.icon{
+    font-size:20px;
+    color:white;
+}
+.community-container{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:300px;
+    width: 60px;
+    height: 60px;
+    background: lightblue;
+    justify-content:center;
+    align-items:center;
+    left:297px;
+}
+.adm{
+    font-size:8px;
+    color:black;
+}
+.icon{
+    font-size:20px;
+    color:white;
+}
+h2{
+    position:absolute;
+    top:55px;
+    color: black;
+    left:15%;
+}
+.motto{
+    position:absolute;
+    top:84px;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    left:15%;
+    
+}
+.txt-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: white;
+    font-weight: bold;
+    
+}
+button,a{
+    cursor:pointer;
+}

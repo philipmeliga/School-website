@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#facilities {
+  padding: 2em;
+}
+
+.facility-container {
+  margin-bottom: 20px;
+}
+
+.facility-container h2 {
+  margin-top: 0;
+}
+
+.facility-container p {
+  margin-bottom: 10px;
+}
+
+.facility-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}

@@ -1,0 +1,21 @@
+body {
+    background: purple;
+}
+#signin{
+    position:absolute;
+    width: 80%;
+    height: 40px;
+    background: purple;
+    border-radius: 5px;
+    top:30%;
+    font-size:14;
+}
+#signup{
+    position:absolute;
+    width: 80%;
+    height: 40px;
+    background: purple;
+    border-radius: 5px;
+    top:40%;
+    font-size:14; 
+}
