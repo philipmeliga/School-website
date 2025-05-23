@@ -43,7 +43,7 @@ createAccountForm.addEventListener('submit', (e) => {
 
   storedUsers.push(newUser);
   localStorage.setItem('users', JSON.stringify(storedUsers));
-  window.location.href = '/storage/emulated/0/images/School website/login.html';
+  window.location.href = '/School-website/login.html';
 });
 
 function validateEmail(email) {

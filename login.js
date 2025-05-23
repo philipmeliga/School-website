@@ -26,7 +26,7 @@ loginForm.addEventListener('submit', (e) => {
 
   if (user) {
     localStorage.setItem('loggedInUser', JSON.stringify(user));
-    window.location.href = '/storage/emulated/0/images/School website/dashboard.html';
+    window.location.href = '/School-website/dashboard.html';
   } else {
     alert('Invalid username or password');
   }
